@@ -1,4 +1,4 @@
 isbhstechwebsite
 ================
 
-Website for International School of Bangkok's HS Tech Club
+Website for the International School of Bangkok's HS Tech Club
