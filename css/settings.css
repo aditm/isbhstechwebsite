@@ -10,11 +10,7 @@
 /*I will comment on the parts that I know what they do.*/
 /*Otherwise, ill put "I Dont Know." Its Microsoft, for god sake*/
 /*I don't know*/
-*, *:before, *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+
 /*????*/
 img, object, embed {
 	max-width: 100%;
