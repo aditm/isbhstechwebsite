@@ -46,6 +46,16 @@
 
 /* LOADER */
 
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
 
 /* PAGER */
 
@@ -112,6 +122,9 @@
 	z-index: 9999;
 }
 
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
 
 /* AUTO CONTROLS (START / STOP) */
 
@@ -143,7 +156,7 @@
 	margin: 0 3px;
 }
 
-.bx-wrapper .bx-controls-auto .bx-stop:hover {
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
 	background-position: -86px -33px;
 }
 
@@ -156,7 +169,22 @@
 
 /* IMAGE CAPTIONS */
 
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
 
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
 
 .bx-wrapper, .bxslider {
 	position: fixed !important;
