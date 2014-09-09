@@ -26,8 +26,8 @@
 
 
 input {
-  color:darkgreen;
-  background: lightgrey;
+  color:#424242;
+  background: #C2C2C2;
   border:none;
   vertical-align:middle;
 }
@@ -47,8 +47,8 @@ input {
 }
 
 #submit:hover {
-  background:black;
-  color:lightgreen;
+  background:#7A7A7A;
+  color:#00C8FF;
   
 
 }
