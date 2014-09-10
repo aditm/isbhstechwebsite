@@ -1,39 +1,37 @@
 body {
-  background-image:url("../img-homepage/daiki/background.png");
-  color:white;
-  font-family:Gill Sans;
-  background-size: 100%;
-  
+	background-image: url("../img-homepage/daiki/background.png");
+	color: white;
+	font-family: Gill Sans;
+	background-size: 100%;
 }
-
-
 
 #textbox {
-  height: 50px; 
-  width: 170px;
-  border-radius:0.3em;
-  background: #3333CC;
-  margin: auto;
-  left:0; right:0;
-  margin-top: 15em;
-  position:relative;
-  -webkit-transition: width, height 1s ease;
-  -moz-transition: width, height 1s ease;
-  -o-transition: width, height 1s ease;
-  transition: width, height 1s ease;
-  overflow:hidden;
+	height: 50px;
+	width: 170px;
+	border-radius: 0.3em;
+	background: #3333CC;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-top: 15em;
+	position: relative;
+	-webkit-transition: width, height 1s ease;
+	-moz-transition: width, height 1s ease;
+	-o-transition: width, height 1s ease;
+	transition: width, height 1s ease;
+	overflow: hidden;
 }
 
-#textbox:hover{
-  width:170px;
-  height:250px;
+#textbox:hover {
+	width: 170px;
+	height: 250px;
 }
 
-img{
-	width:170px;
+img {
+	width: 170px;
 }
 
-.hidden{
-	text-decoration:none;
+.hidden {
+	text-decoration: none;
 }
 

@@ -46,7 +46,6 @@
 
 /* LOADER */
 
-
 /* PAGER */
 
 .bx-wrapper .bx-pager {
@@ -82,8 +81,6 @@
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-
-
 .bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
@@ -103,18 +100,15 @@
 	z-index: 9999;
 }
 
-
 /* AUTO CONTROLS (START / STOP) */
 
 .bx-wrapper .bx-controls-auto {
 	text-align: center;
 }
 
-
 .bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
 	background-position: -86px 0;
 }
-
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover {
 	background-position: -86px -33px;
@@ -128,8 +122,6 @@
 }
 
 /* IMAGE CAPTIONS */
-
-
 
 .bx-wrapper, .bxslider {
 	position: fixed !important;
